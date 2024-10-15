@@ -593,9 +593,9 @@ position: relative;
     right: 20px;
     width: 300px; 
   }
-  .home-text {
+  /* .home-text {
     padding: auto;
-  }
+  } */
   .home-text h1 {
     font-size: 20px; 
   }
@@ -613,14 +613,16 @@ position: relative;
 
 @media (max-width: 480px) {
   .home-text {
-    padding: 0 20px;
-    text-align: center;
+    padding:100px ;
+    margin-top: 80px;
+    text-align: left;
   }
   .home-text h1 {
     font-size: 20px;
   }
   .home-text span {
-    font-size: 0.7rem;
+    font-weight: 600;
+    font-size: 1rem;
   }
 }
 
